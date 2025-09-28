@@ -5,10 +5,11 @@ int main() {
     scanf("%d", &n);
 
     while (n > 0) {
-        sum += n % 10;  // take last digit
-        n /= 10;        // remove last digit
+        sum += n % 10;  
+        n /= 10;        
     }
 
     printf("%d", sum);
     return 0;
 }
+
