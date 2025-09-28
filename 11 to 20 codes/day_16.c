@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>  // for abs()
+#include <stdlib.h>  
 
 void update(int *a, int *b) {
     int sum = *a + *b;
@@ -15,3 +15,4 @@ int main() {
     printf("%d\n%d", a, b);
     return 0;
 }
+
