@@ -14,9 +14,10 @@ int main() {
     printf("%s\n", s);
 
     
-    scanf(" %[^\n]", sen);   // space before %[^\n] ignores leftover newline
+    scanf(" %[^\n]", sen);   
     printf("%s\n", sen);
 
     return 0;
 }
+
 
