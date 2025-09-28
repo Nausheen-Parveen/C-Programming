@@ -13,7 +13,7 @@ int main() {
             int bottom = size - 1 - i;
             int right = size - 1 - j;
 
-            // Find minimum distance to edges
+            
             int min = top;
             if (left < min) min = left;
             if (bottom < min) min = bottom;
@@ -26,3 +26,4 @@ int main() {
 
     return 0;
 }
+
