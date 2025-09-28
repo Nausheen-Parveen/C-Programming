@@ -9,7 +9,7 @@ int main() {
 
     for (int i = 0; i < strlen(num); i++) {
         if (num[i] >= '0' && num[i] <= '9') {
-            freq[num[i] - '0']++;  // convert char to int index
+            freq[num[i] - '0']++;  
         }
     }
 
@@ -19,4 +19,5 @@ int main() {
 
     return 0;
 }
+
 
